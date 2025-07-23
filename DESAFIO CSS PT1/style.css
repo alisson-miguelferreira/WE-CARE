@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+
+
+header{
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.congrats-header{
+    color: #17233D; 
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    text-align: center;
+    margin-right: 32px;
+}
+
+.button-header{
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 32px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    line-height: 24px;
+    }
+
+img{
+    
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+
+div{
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1{
+    color: #161A49;
+    font-size: 62px;
+    line-height: 82px; 
+    letter-spacing: 0.596154px;
+   
+}
+
+
+p{
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px; 
+    letter-spacing: 0.5px;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;;
+    
+}
+
+.learn-more{
+    color: #6FBF44;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    cursor: pointer;
+   font-weight: 14;
+}
+
+
+
+
+
+
