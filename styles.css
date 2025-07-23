@@ -1,0 +1,344 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    min-height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-right: 76px;
+}
+
+header a {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 23px;
+    transition: color 0.3s ease;
+}
+
+header a:hover {
+    color: #665AE1;
+}
+
+/* Novos estilos para quando o link é clicado ou está em foco */
+header a:active,
+header a:focus {
+    color: #000000; /* Preto */
+}
+
+.img-logo {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: block;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-header:hover {
+    background-color: #5142d0;
+    transform: translateY(-2px);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 0 20px;
+    padding-bottom: 80px;
+    min-height: auto;
+    overflow-y: visible;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 86px;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    white-space: nowrap;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+    white-space: nowrap;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.button-main {
+    background: #adff00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-main:hover {
+    background-color: #8CFF00;
+    transform: translateY(-2px);
+}
+
+/* Responsividade */
+
+/* Para telas maiores que 1440px (desktop large) */
+@media (min-width: 1441px) {
+    header {
+        margin-left: 100px;
+        padding-right: 100px;
+    }
+
+    .img-logo {
+        margin-left: 150px;
+    }
+
+    section {
+        margin-left: 100px;
+    }
+
+    main {
+        padding-bottom: 120px;
+    }
+}
+
+/* Para tablets e telas menores (até 1200px) */
+@media (max-width: 1200px) {
+    header {
+        flex-direction: column;
+        margin: 30px 0 60px 0;
+        padding: 20px 0;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    header a {
+        font-size: 20px;
+        margin: 10px 15px;
+    }
+
+    .button-header {
+        width: 110px;
+        height: 36px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    main {
+        flex-direction: column;
+        height: auto;
+        min-height: auto;
+        overflow-y: visible;
+        padding: 40px 15px;
+        padding-bottom: 60px;
+    }
+
+    .img-logo {
+        width: 80%;
+        height: auto;
+        margin: 0 auto 40px;
+    }
+
+    section {
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    h1 {
+        font-size: 70px;
+        line-height: 80px;
+        white-space: normal;
+    }
+
+    h2 {
+        font-size: 45px;
+        line-height: 55px;
+        white-space: normal;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 29px;
+        width: 515px;
+        max-width: 100%;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    .button-main {
+        width: 200px;
+        height: 55px;
+        font-size: 22px;
+    }
+}
+
+/* Para smartphones (até 768px) */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 10px;
+        margin-bottom: 40px;
+    }
+
+    header a {
+        font-size: 18px;
+        margin: 5px 10px;
+    }
+
+    .button-header {
+        width: 100px;
+        height: 32px;
+        font-size: 18px;
+    }
+
+    main {
+        padding: 30px 10px;
+        padding-bottom: 40px;
+    }
+
+    .img-logo {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    section {
+        padding: 0 10px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 29px;
+        width: auto;
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .button-main {
+        width: 180px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+/* Para smartphones menores (até 480px) */
+@media (max-width: 480px) {
+    header {
+        padding: 15px 5px;
+        margin-bottom: 30px;
+    }
+
+    header a {
+        font-size: 16px;
+        margin: 5px 8px;
+    }
+
+    .button-header {
+        width: 90px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    main {
+        padding: 20px 5px;
+        padding-bottom: 30px;
+    }
+
+    .img-logo {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    p {
+        font-size: 24px;
+        line-height: 29px;
+        width: auto;
+        max-width: 100%;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .button-main {
+        width: 160px;
+        height: 45px;
+        font-size: 18px;
+    }
+}
