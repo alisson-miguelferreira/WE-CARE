@@ -1,6 +1,6 @@
 # 🐾 We Care Pet
 
-Site institucional fictício para uma clínica veterinária fictícia, com layout moderno e inspirado em design do Figma.
+Site institucional fictício para uma clínica veterinária, com layout moderno e inspirado em design do Figma.
 
 ![Capa do Projeto](./assets/we%20care%20pet.png)
 
