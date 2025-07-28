@@ -2,7 +2,7 @@
 
 Site institucional fictício para uma clínica veterinária fictícia, com layout moderno e inspirado em design do Figma.
 
-![Capa do Projeto](./WE%20CARE%20PET%20CSS%20PT1/assets/we%20care%20pet.png)
+![Capa do Projeto](./assets/we%20care%20pet.png)
 
 ## 📚 Descrição
 
@@ -38,7 +38,7 @@ Este projeto está disponível publicamente apenas para fins de visualização e
 
 ## 📷 Captura de Tela
 
-![Layout Desktop](./WE%20CARE%20PET%20CSS%20PT1/assets/captura-tela-we-care.png)
+![Layout Desktop](./assets/captura-tela-we-care.png)
 
 ## 👨‍💻 Autor
 
