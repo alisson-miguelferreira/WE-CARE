@@ -2,7 +2,7 @@
 
 Landing page fictícia e responsiva para uma plataforma de mobilidade urbana, com layout moderno, responsivo e intuitivo.
 
-![Capa do Projeto](./assets/Positive%20Congratulation%20You%20get%2040%20point%20for%20your%20ride.png)
+![Capa do Projeto](./assets/(Positive)%20Congratulation%20You%20get%2040%20point%20for%20your%20ride.png)
 
 ## 📚 Descrição
 
